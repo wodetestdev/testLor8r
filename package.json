@@ -6,8 +6,6 @@
         "start": "node ./bin/www"
     },
     
-    //Add an engines section to package.json to tell Heroku
-    //which platform your applicationis on, and which version //to use
     "engines": {
         "node": "~4.2.1",
         "npm": "~2.2.0"
