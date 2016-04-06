@@ -1,10 +1,13 @@
 var express = require('express');
+// no need to export hence no need define as var
+require('./server/models/db');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+// other controllers
 var routes = require('./server/routes/index');
 var users = require('./server/routes/users');
 
